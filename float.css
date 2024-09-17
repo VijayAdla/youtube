@@ -1,0 +1,28 @@
+.float{
+    height:800px;
+    width: 100px;
+    position: fixed;
+    margin-top: -19px;
+    border-right: 2px solid rgb(206, 204, 204);
+    background-color: white;
+    z-index: 3;
+}
+.sidebar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar:hover{
+    background-color: rgb(186, 186, 186);
+}
+
+.sidebar img{
+    width:37px;
+    height: 80px;
+}
+
+.sidebar p{
+    font-size:14px; 
+    margin-top:-10px;
+}
